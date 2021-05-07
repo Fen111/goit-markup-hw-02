@@ -37,12 +37,12 @@ h6 {
   color: var(--secondary-text-color);
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
 /* убираем точки с маркерованных списков */
-ul {
+.list {
   list-style: none;
 }
 /* создаем дополнительный класс для изменения фона в секциях hero и footer */
@@ -55,7 +55,7 @@ ul {
   background-color: var(--secondary-bg-color);
 }
 
-/* Logo */
+/* ========================================= LOGO ========================================= */
 .logo {
   color: var(--secondary-text-color);
   font-family: 'Raleway', sans-serif;
@@ -66,8 +66,9 @@ ul {
 .logo-accent {
   color: var(--accent-text-color);
 }
+/* ========================================= END LOGO ======================================== */
 
-/* Navigation */
+/* ====================================== NAVIGATION ====================================== */
 
 .nav .nav-link {
   color: var(--secondary-text-color);
@@ -85,8 +86,9 @@ ul {
 .nav .nav-link.current {
   color: var(--accent-text-color);
 }
+/* ====================================== END NAVIGATION ==================================== */
 
-/* Почта и телефон */
+/* ====================================== MAIL & PHONE ====================================== */
 .address .address-link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -100,7 +102,10 @@ ul {
   color: var(--accent-text-color);
 }
 
-/* Hero */
+/* =================================== END MAIL & PHONE ====================================== */
+
+/*  ====================================== HERO ========================================== */
+
 .hero-title {
   color: var(--white-color);
   font-weight: 900;
@@ -129,16 +134,16 @@ ul {
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 
-/* Features */
+/*  ====================================== END HERO ====================================== */
+
+/* ====================================== FEATURES ====================================== */
 
 .features-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -148,7 +153,10 @@ ul {
   font-size: 14px;
   line-height: 1.71;
 }
-/* Team */
+
+/* ====================================== END FEATURES ====================================== */
+
+/* ====================================== TEAM ====================================== */
 
 .team-title {
   font-weight: 500;
@@ -163,28 +171,32 @@ ul {
   text-align: center;
 }
 
-/* Footer */
+/* ====================================== END TEAM ====================================== */
+
+/* ====================================== FOOTER ====================================== */
 
 .logo-white {
   color: var(--white-color);
 }
 
-.address-footer .link {
+.footer-address .footer-link {
   color: var(--footer-text-color);
   font-style: normal;
-  font-weight: normal;
+
   font-size: 14px;
   line-height: 1.71;
 }
 
-.address-footer .link:hover,
-.address-footer .link:focus {
+.footer-address .footer-link:hover,
+.footer-address .footer-link:focus {
   color: var(--white-color);
 }
 
-/* Portfolio */
+/* ====================================== END FOOTER ====================================== */
 
-/* Filter */
+/* ################################# PORTFOLIO ##########################################  */
+
+/* ====================================== FILTER ====================================== */
 
 .filter .filter-button {
   color: var(--secondary-text-color);
@@ -195,6 +207,7 @@ ul {
   line-height: 1.62;
   text-align: center;
   border: none;
+  cursor: pointer;
 }
 
 .filter .filter-button:hover,
@@ -203,10 +216,11 @@ ul {
   background-color: var(--accent-text-color);
 }
 
-/* Projects */
+/* ====================================== END FILTER ====================================== */
+
+/* ====================================== PROJECTS ====================================== */
 
 .project .project-name {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -217,3 +231,5 @@ ul {
   line-height: 1.87;
   color: var(--primary-text-color);
 }
+
+/* ====================================== END PROJECTS ====================================== */
